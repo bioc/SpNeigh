@@ -37,7 +37,7 @@ BiocManager::install("SpNeigh")
 Or install *SpNeigh* from GitHub:
 
 ``` r
-devtools::install_github("jinming-cheng/SpNeigh")
+pak::pak("jinming-cheng/SpNeigh")
 ```
 
 ## Citation

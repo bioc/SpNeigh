@@ -1,4 +1,13 @@
 
+# SpNeigh 1.1.1
+
+- Update README
+- Update vignette
+
+# SpNeigh 1.0.0
+
+Bioconductor 3.23 Release
+
 # SpNeigh 0.99.43
 
 - Updated CITATION file

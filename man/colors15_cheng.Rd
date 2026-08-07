@@ -18,4 +18,3 @@ plot(1:15, 1:15, pch = 16, col = colors15_cheng)
 barplot(rep(1, 15), col = colors15_cheng)
 
 }
-\keyword{datasets}
