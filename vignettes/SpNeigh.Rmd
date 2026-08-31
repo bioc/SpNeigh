@@ -197,7 +197,7 @@ metadata_sub <- subset(coords[, c("cell", "cluster")], cluster %in% c("0", "2"))
 Create SpatialExperiment
 ```{r create_spe_obj}
 spe <- SpatialExperiment::SpatialExperiment(
-    assay = list("logcounts" = logNorm_expr),
+    assays = list("logcounts" = logNorm_expr),
     colData = metadata_sub,
     spatialCoords = coords_sub
 )
